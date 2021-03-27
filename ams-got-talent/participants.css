@@ -1,0 +1,229 @@
+html,  body {
+    margin:0;
+    background: white;
+}
+
+@font-face {font-family: "Schnyder Cond M Light"; src: url("//db.onlinewebfonts.com/t/04d799f9fc4bd0a0973b3331ff889f32.eot"); src: url("//db.onlinewebfonts.com/t/04d799f9fc4bd0a0973b3331ff889f32.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/04d799f9fc4bd0a0973b3331ff889f32.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/04d799f9fc4bd0a0973b3331ff889f32.woff") format("woff"), url("//db.onlinewebfonts.com/t/04d799f9fc4bd0a0973b3331ff889f32.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/04d799f9fc4bd0a0973b3331ff889f32.svg#Schnyder Cond M Light") format("svg"); }
+
+@font-face {
+    font-family: Ogg;
+    src: url(ogg.otf);
+}
+
+@font-face {
+    font-family: Svn;
+    src: url(svn.otf);
+}
+
+@font-face {
+    font-family: Visuelt-bold;
+    src: url(visuelt-bold.ttf);
+}
+
+@font-face {
+    font-family: Visuelt-light;
+    src: url(visuelt-light.ttf);
+}
+
+/* .cursor {
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    border: 1.5px solid #E4380A;
+    transition: all 0.2s ease-out;
+
+} */
+
+.title {
+    position:fixed;
+    font-family: Ogg;
+    font-size: 2.5rem;
+    color: #E4380A;
+    font-weight: 200;
+    left: 7%;
+    top: 4%;
+    letter-spacing: 2.5px;
+    z-index: 100;
+}
+
+.arrow-icon {
+    position: fixed;
+    width: 3vw;
+    right: 4%;
+    top: 7%;
+    fill: #E4380A;
+    z-index: 100;
+}
+
+.XIII {
+    position: fixed;
+    font-size: 2.5rem;
+    font-family: Ogg;
+    color: #E4380A;
+    font-weight: 200;
+    letter-spacing: 2px;
+    right: 5%;
+    top: 80vh;
+
+}
+
+
+.c-scrollbar_thumb {
+    opacity: 0 !important;
+    z-index: 500 !important;
+}
+.wrapper {
+    z-index: 100;
+    height: 292.5vh;
+}
+#outerCircleText {
+    color: #E4380A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1 !important;
+    cursor: default;
+    font-family: Ogg;
+    font-weight: 500;
+}
+#outerCircleText div {
+    position: relative;
+    z-index:1 !important;
+}
+#outerCircleText div div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1 !important;
+}
+
+.fl-text {
+    opacity: 0;
+    height: 2vh;
+    z-index: 1 !important;
+}
+
+.members {
+    position: relative;
+    font-family: Ogg;
+    font-size: 6.6rem;
+    font-weight: 1;
+    letter-spacing: 2px;
+    left: 4%;
+    width: 85vw;
+    top: 24vh;
+    z-index: 300;
+}
+
+.members ul li {
+    list-style: none;
+    color: black;
+    z-index: 300 !important;
+    margin: -80px 0;
+}
+
+.members ul li div {
+    height: 28vh;
+    position: relative;
+    z-index: 300 !important;
+}
+
+/* .members ul li div:nth-child(odd) {
+    border-top: 1px solid black;
+}
+
+.members ul li div:nth-child(even) {
+    border-bottom: 1px solid black;
+} */
+
+.members ul li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 4.5vh;
+    transition: color 0.5s ease;
+    z-index: 2 !important;
+}
+
+.nav-to-other-abouts {
+    text-decoration: none;
+    font-family: Ogg;
+    font-size: 5rem;
+    color: black;
+    position: absolute;
+    top: 241vh;
+    left: 0%;
+    float: left;
+}
+
+.nav-to-other-abouts ul li {
+    list-style: none;
+}
+
+.nav-to-other-abouts ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease;
+    z-index: 1 !important;
+}
+
+.nav-to-other-abouts ul li a:hover {
+    text-decoration: none;
+    color: #E4380A;
+}
+
+.div-to-black {
+    color: black !important;
+}
+
+#part-intro {
+    font-family: Visuelt-light;
+    font-size: 2rem;
+    height: 15vh;
+    letter-spacing: 3px;
+    left: 1%;
+    color: black !important;
+}
+
+#camca-note {
+    font-family: Visuelt-light;
+    font-size: 1.2rem;
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 50%;
+    width: 1.5vw;
+    height: 1.5vw;
+    color: black;
+    position: relative;
+    float:right;
+    top: 5vh;
+    left: -66%;
+    text-align: center;
+}
+
+#F-camca {
+    position: relative;
+    top: 0.9vh;
+    left: 5%;
+}
+
+.member-type {
+    font-size: 1.6rem;
+    font-family: Visuelt-light;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    height: 1vh;
+    line-height: 5vh;
+    color: transparent;
+    transition: color 0.5s ease;
+}
+
+#cam-linh {
+    font-size: 6.2rem;
+}
+
+.member-type-color {
+    color: #E4380A;
+}
