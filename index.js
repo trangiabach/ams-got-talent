@@ -1,3 +1,4 @@
+
 var scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
@@ -41,9 +42,10 @@ function loadingAni() {
             document.querySelector(".loading-percent").innerHTML = newloadNum
             }
             else {
-                loadTL.to(".loading-percent", 2, {opacity:0, ease: Power4.easeOut})
-                loadTL.to(".load-quote span", 2, {opacity:1,stagger: 0.15, ease: Power4.easeOut})
-                loadTL.to(".loading-screen", 2, {top: "-100%", opacity:0, borderRadius: "80px" ,ease:Power4.easeOut, onComplete: function(){
+                var loadTL1 = gsap.timeline();
+                loadTL1.to(".loading-percent", 2, {opacity:0, ease: Power4.easeOut})
+                loadTL1.to(".load-quote span", 2, {opacity:1,stagger: 0.15, ease: Power4.easeOut})
+                loadTL1.to(".loading-screen", 2, {top: "-100%", opacity:0, borderRadius: "80px" ,ease:Power4.easeOut, onComplete: function(){
                 $(".loading-screen").css("z-index", "-1")
                 }})
             }
@@ -597,16 +599,17 @@ window.mobileAndTabletCheck = function() {
     return check;
 };
 
-window.onload = function() {
-    if(window.mobileAndTabletCheck() == true) {
-        $(".content").css({
-            "overflow-x" : "hidden",
-            "-ms-overflow-style" : "none",  /* IE and Edge */
-            "scrollbar-width" : "none" /* Firefox */
-        })
-    }
+
+if(window.mobileAndTabletCheck() == true) {
+    $(".content").css({
+        "overflow-x" : "hidden",
+        "-ms-overflow-style" : "none",  /* IE and Edge */
+        "scrollbar-width" : "none" /* Firefox */
+    })
 }
 
+
 window.addEventListener("resize", function() {
-    window.location.reload()
+    //window.location.reload()
 })
+

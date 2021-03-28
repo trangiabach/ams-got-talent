@@ -159,7 +159,20 @@
 }
 
 @media only screen and (max-width: 415px) {
+    .loading-screen {
+        line-height: 36vw;
+    }
 
+
+    .loading-num {
+        font-size: 20vw;
+    }
+
+    .load-quote {
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+    
     .wrapper {
         height: 500vh;
     }
@@ -403,11 +416,12 @@
     }
 
     .section-3-arrow-to-contact {
-        width: 4vw;
+        width: 3.5vw;
+        top: 130vw;
     }
 
     .contact-section {
-        height: 160vw;
+        height: 180vw;
     }
 
     .contact-header {
@@ -448,8 +462,8 @@
 
     .agt-circle span {
         position: relative;
-        font-size: 5.7vw;
-        top: 10%;
+        font-size: 6vw;
+        top: 9%;
     }
 
     .agt-season {
@@ -461,8 +475,8 @@
 
     .agt-season span {
         position: relative;
-        top: 10%;
-        font-size: 6.2vw;
+        top: 7%;
+        font-size: 6.8vw;
     }
 
     .agt-name {
@@ -473,9 +487,9 @@
     }
 
     .agt-name span {
-        font-size: 6.2vw;
+        font-size: 6.8vw;
         position: relative;
-        top: 10%;
+        top: 6%;
     }
 
     .contact-href {
@@ -487,12 +501,50 @@
         text-align: center;
     }
 
+    .contact-stroke {
+        width: 100vw;
+        left: 2%;
+    }
+
     .email {
         position: relative;
         left: -6.5%;
     }
 
+    .menu-items {
+        top: 20%;
+    }
     
+    .menu-item {
+        font-size: 12vw;
+        line-height: 22vw;
+    }
+
+    .pointer-location {
+        font-size: 5vw;
+    }
+
+    .pointer-location-slash {
+        font-family: Ogg;
+        font-size: 12vw;
+    }
+
+    .menu-email {
+        font-size: 8vw;
+    }
+
+    .menu-facebook {
+        font-size: 8vw;
+    }
+
+    #menu-email-svg {
+        width: 18vw;
+    }
+
+    #menu-facebook-svg {
+        width: 30vw;
+    }
+   
 }
 
 
