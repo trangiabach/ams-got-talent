@@ -1,0 +1,89 @@
+@font-face{
+    font-family: Ogg;
+    src: url(ogg.otf);
+}
+@font-face {
+    font-family: Open-Sans-Light;
+    src: url(OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: Open-Sans-Italic;
+    src: url(OpenSans-Italic.ttf);
+}
+@font-face {
+    font-family: Open-Sans-SemiBold;
+    src: url(OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: Open-Sans-Regular;
+    src: url(OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Open-Sans-Bold;
+    src: url(OpenSans-Bold.ttf);
+}
+.text-center{
+    font-family: Ogg;
+}
+#sponsor-name{
+    font-size: 6.6rem;
+}
+.text-start{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+.text-start p{
+    font-family: Open-Sans-Regular;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.text-start span{
+    font-family: Open-Sans-Italic;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.text-center span {
+    color: #E4380A;
+    font-family: Open-Sans-Regular;
+    font-size: 1.6rem;
+}
+img{
+    max-width: 70%;
+    margin-top: 50px;
+}
+.intro{
+    font-family: Open-Sans-Bold;
+    font-size: 1.4rem;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.section{
+    margin-top: 30px;
+}
+.check{
+    margin-left: 30px;
+    font-family: Open-Sans-Italic;
+    font-size: 1.4rem;
+}
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+li{
+    font-size: 1.3rem;
+}
+.dashed > li:before{
+    content: "-";
+    margin-right: 2px;
+}
+#bold{
+    font-family: Open-Sans-Bold;
+    font-size: 1.5rem;
+}
+#schools{
+    margin-top: 50px;
+}
