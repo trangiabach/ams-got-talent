@@ -11,20 +11,51 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="sponsors.css">
+    <link rel="stylesheet" href="sponsors-indi.css">
+    <link rel="stylesheet" href="sponsors-indi-media.css">
 </head>
 
+
 <body>
-    <div data-scroll-container>
+    <div class="menu-cursor"></div>
+    <div class = "menu">
+        <a>menu</a>
+    </div>
+    <div class = "trans1"></div>
+    <div class = "is-on1"></div>
+    <h1 class = "title">
+        <a href = "index.html">agt</a>
+    </h1>
+    <div class = "menu-full" id = "menu-targ">
+        <div class="menu-items">
+            <div class="menu-item"><span id = "home-re" href = "index.html">HOME</span></div>
+            <div class="menu-item"><span id = "about-re" href = "about.html">ABOUT</span></div> 
+            <div class="menu-item"><span id = "history-re" href = "history.html">HISTORY</span></div>
+            <div class="menu-item"><span id = "participants-re" href = "participants.html">PARTICIPANTS</span></div>
+            <div class="menu-item"><span  id = "sponsors-re" href = "sponsors.html">SPONSORS</span></div>
+            <div class="menu-item" id = "contact-re"><span>CONTACT</span></div>
+        </div>
+        <div class = "menu-e-f">
+            <div class = "menu-email">
+                <span onclick = "openMail();"><a>email</a></span>
+                <svg class = "menu-svg" id = "menu-email-svg"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189.45 27.56"><defs><style>.cls-menusvg{fill:none;stroke:black;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>history-stroke</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-menusvg" d="M0,2.5c48.05.25,95.72,7.8,143.17,15.32l45.87,7.27"/></g></g></svg>
+            </div>
+            <div class = "menu-facebook">
+                <span><a href = "https://www.facebook.com/agtseasonxiii">facebook</a></span>
+                <svg class = "menu-svg" id = "menu-facebook-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169.42 31.01"><defs><style>.cls-menufbsvg{fill:none;stroke:black;stroke-miterlimit:10;stroke-width:3px;}</style></defs><title>about-stroke_1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-menufbsvg" d="M.51,28.57c55.67-11.7,112.17-18.9,168.6-26.09"/></g></g></svg>
+            </div>
+        </div>
+    </div>
+    <div class = "wrapper" data-scroll-container>
         <div class="text-center" data-scroll data-scroll-direction="vertical" data-scroll-delay="0.1"
             data-scroll-speed="1">
             <p id="sponsor-name">SACE Education</p>
             <span>Chương trình đào tạo THPT bang Nam Úc tại Việt Nam</span>
         </div>
         <div class="text-start">
-            <section>
+            <section id = "section-1">
                 <div class="intro">1. Giới thiệu về SACE và SACE International (SACEi):</div>
-                <img class="rounded mx-auto d-block" src="./Img/sace1.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace1.jpg" alt="">
                 <span>(Chương trình THPT chính thống Úc SACE International)</span>
                 <p> SACE INTERNATIONAL (viết tắt: SACEi) là phiên bản quốc tế của chương trình Trung học phổ thông do Uỷ
                     ban
@@ -54,24 +85,24 @@
                     bộ
                     lãnh thổ Việt Nam.
                 </p>
-                <img class="rounded mx-auto d-block" src="./Img/sace2.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace2.jpg" alt="">
                 <span>(Lễ ký kết hợp tác giữa SACE Education Vietnam và trường THPT Lương Văn Can)</span>
             </section>
-            <section class="section">
+            <section class="section" id = "section-2">
                 <div class="intro">2. SACEi được xây dựng, triển khai, quản lý bởi tổ chức nào?</div>
                 <p>Là chương trình học quốc tế uy tín của Úc, SACEi được xây dựng và quản lý trực tiếp, chặt chẽ từ mọi
                     quy
                     trình bởi Ủy ban Trung học Nam Úc (SACE Board). Chương trình được triển khai, giảng dạy tại nhiều
                     quốc
                     gia trên thế giới.</p>
-                <img class="rounded mx-auto d-block" src="./Img/sace3.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace3.jpg" alt="">
                 <span>(Hơn 15.000 học sinh hoàn thành chương trình SACE trong năm 2020)</span>
                 <p>Chính phủ Nam Úc thực hiện quản lý chương trình SACEi thông qua việc quản lý danh sách học sinh, tổ
                     chức thi và chấm thi, xét tuyển, cũng như các chuyến thăm trường, kiểm tra và thực hiện thẩm định
                     chất lượng dạy và học tại các cơ sở đại diện giảng dạy chương trình SACEi. Kết quả học tập được đánh
                     giá theo tiêu chí 70-30. 70% từ các bài tập, các bài kiểm tra ngắn và bài luận được hoàn thành trong
                     suốt khóa học, 30% từ bài thi viết khi kết thúc khóa học.</p>
-                <img class="rounded mx-auto d-block" src="./Img/sace4.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace4.jpg" alt="">
                 <span>(Ủy ban trung học Nam Úc SACE Board là đơn vị quản lý chất lượng chương trình SACE)</span>
                 <p>Như vậy có thể thấy, mặc dù là một chương trình được thực hiện giảng dạy ngoài nước Úc, nhưng SACE
                     International vẫn có sự giám sát chặt chẽ của SACE Board, từ quy trình, nội dung giảng dạy đến chất
@@ -80,7 +111,7 @@
                     trình. Điều này hoàn toàn đảm bảo cho học sinh một chương trình học chất lượng và đáng tin cậy từ
                     việc giảng dạy, đến kết quả và nhận bằng cấp uy tín.</p>
             </section>
-            <section class="section">
+            <section class="section" id = "section-3">
                 <div class="intro">3. Tại sao nên lựa chọn SACE International?</div>
                 <div class="check"> &#10003; Lộ trình ngắn nhất, tiết kiệm thời gian tối đa để vào Đại học:</div>
                 <p>Học sinh có thể đi du học sớm hơn so với dự định: Học sinh học SACE International từ học kì 2 lớp 10.
@@ -90,7 +121,7 @@
                 </p>
                 <p>Học sinh được VÀO THẲNG năm nhất đại học nước ngoài, không phải qua Dự bị đại học 1 năm như hầu hết
                     học sinh Việt Nam khi đi du học.</p>
-                <img class="rounded mx-auto d-block" src="./Img/sace5.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace5.jpg" alt="">
                 <span>(Lớp học tại SACE Education Vietnam)</span>
                 <div class="check"> &#10003; Tiết kiệm về chi phí:</div>
                 <p>Học chương trình SACE International tại Việt Nam còn giúp học sinh tiết kiệm đến 80% chi phí so với
@@ -105,7 +136,7 @@
                     năng toàn diện hơn. Học sinh phát triển kỷ luật và sự nghiêm túc trong học tập, điều đó sẽ giúp họ
                     thành công ở trường đại học và hơn thế nữa. Chương trình giúp các em học sinh trở thành những công
                     dân toàn cầu có thể làm việc ỏ bất cứ môi trường nào.</p>
-                <img class="rounded mx-auto d-block" src="./Img/sace6.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace6.jpg" alt="">
                 <span>(Học sinh tham gia chương trình SACEi được hoàn thiện kỹ năng một cách toàn diện)</span>
                 <p>Chương trình SACE International phát triển khả năng của học sinh trong các lĩnh vực giúp các em trở
                     thành công dân tốt đóng góp cho xã hội. Thấu hiểu, phát triển, vận dụng được kiến thức và kỹ năng
@@ -116,7 +147,7 @@
                     Nam và bằng tốt nghiệp THPT Úc. Học sinh tốt nghiệp chương trình SACE International sẽ nhận bằng
                     tương đương bằng của học sinh trung học được nhận tại Nam Úc cả về hình thức và giá trị do Uỷ ban
                     Trung học Nam Úc (SACE Board) cấp.</p>
-                <img class="rounded mx-auto d-block" src="./Img/sace7.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace7.jpg" alt="">
                 <span>(Chứng nhận vào Đại học ở bang Nam Úc)</span>
                 <p>Bằng SACEi có giá trị trên TOÀN CẦU, chứng nhận học sinh đã hoàn thành chương trình quốc tế và có thể
                     học Đại học ở bất cứ đâu.</p>
@@ -154,9 +185,9 @@
                          gia Hà Nội, RMIT, BUV, v.v…</li>
                 </ul>
             </section>
-            <section class="section">
+            <section class="section" id = "section-4">
                 <div id="bold">DANH SÁCH CÁC TRƯỜNG ĐẠI HỌC TRÊN THẾ GIỚI ĐÃ NHẬN HỌC SINH SACE TRONG NĂM 2018:</div>
-                <img class="rounded mx-auto d-block" src="./Img/sace8.jpg" alt="">
+                <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/sace8.jpg" alt="">
                 <section id="schools">
                     <p>Úc: University of Adelaide | Flinders University | University of South Australia | Australian
                         National University | Bond University | Curtin University | Deakin University | Griffith
@@ -191,6 +222,20 @@
                         University of Hongkong.</p>
                 </section>
             </section>
+            <div id="next_participant_container" data-scroll-container>
+                <div id="next_participant">
+                    <p>Go to</p>
+                </div>
+                <div id="next_participant_name">
+                    <a href="./summit.html">SUMMIT EDUCATION</a>
+                </div>
+                <div id="return">
+                    <p>or return to</p>
+                </div>
+                <div id="all_participants">
+                    <a href="./sponsors.html">ALL SPONSORS</a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Optional JavaScript -->
@@ -198,6 +243,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.5/vivus.min.js" integrity="sha512-NBLGIjYyAoYAr23l+dmAcUv7TvFj0XrqZoFa4i1o+F2VvF9SrERyMD8BHNnJn1SEGjl1AouBDcCv/q52L3ozBQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -209,7 +255,9 @@
         integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-    <script src="team.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="sponsors-indi.js"></script>
 </body>
 
 </html>
