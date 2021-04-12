@@ -1,0 +1,24 @@
+
+.img-row{
+    display: flex;
+    flex-direction: row;
+    max-width: 44%;
+    justify-content: space-around;
+    margin: auto;
+}
+img{
+    margin-right: 25px;
+}
+#cib{
+    margin-top: 50px;
+    text-decoration: underline;
+}
+ul li{
+    list-style-type: disc;
+    font-weight: bold;
+}
+.cib-text{
+    margin-top: 0;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
