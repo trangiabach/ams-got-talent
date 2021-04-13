@@ -44,7 +44,6 @@
 
 /* css for menu */
 .c-scrollbar_thumb {
-    opacity: 0;
 }
 
 .menu {
@@ -222,18 +221,15 @@
     color: #E4380A;
 }
 
-/* css for menu */
+/* new change */
 
 
-/* css for body (có cái bug mà page kiểu nó bị kẹt scroll thì cho cái này thì sửa được,
- thay đổi giá trị sao cho phù hợp với độ dài của từng page 
-(cái này cũng reponsive fet nên ko sợ) */
 .wrapper {
     height: 500%;
+    padding-bottom: 20%;
 }
-/* css for body (có cái bug mà page kiểu nó bị kẹt scroll thì cho cái này thì sửa được,
- thay đổi giá trị sao cho phù hợp với độ dài của từng page 
-(cái này cũng reponsive fet nên ko sợ) */
+
+/* new change */
 
 
 .text-center{
