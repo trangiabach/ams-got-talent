@@ -43,8 +43,6 @@
 
 
 /* css for menu */
-.c-scrollbar_thumb {
-}
 
 .menu {
     font-family: Ogg;
@@ -267,7 +265,7 @@ img{
 }
 .intro{
     font-family: Open-Sans-Bold;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin: auto;
     margin-bottom: 30px;
     margin-top: 50px;
