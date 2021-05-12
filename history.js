@@ -145,19 +145,19 @@ historyTL()
 
 function historyHover() {
     const images = {
-        florescence: "./Img/florescence.png",
-        flagrantia: "./Img/flagrantia.JPG",
-        novaturient: "./Img/novatur.JPG",
-        querencia: "./Img/querencia.jpg",
-        aquilae: "./Img/aquilae.JPG",
-        solstice: "./Img/solstice.jpg",
-        nebulae: "./Img/nebulae.jpg",
-        iridescence: "./Img/iridescence.jpg",
-        seasonV: "./Img/season V.jpg",
-        seasonIV: "./Img/season IV.jpg",
-        seasonIII: "./Img/season III.jpg",
-        seasonII: "./Img/season II.jpg",
-        seasonI: "./Img/transparent.png"
+        florescence: "./florescence.png",
+        flagrantia: "./flagrantia.JPG",
+        novaturient: "./novatur.JPG",
+        querencia: "./querencia.jpg",
+        aquilae: "./aquilae.JPG",
+        solstice: "./solstice.jpg",
+        nebulae: "./nebulae.jpg",
+        iridescence: "./iridescence.jpg",
+        seasonV: "./season V.jpg",
+        seasonIV: "./season IV.jpg",
+        seasonIII: "./season III.jpg",
+        seasonII: "./season II.jpg",
+        seasonI: "./transparent.png"
     }
     const cursor = document.querySelector(".history-image-cursor")
     $(document).mousemove(function(e) {
